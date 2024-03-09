@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
+
+/* Add this to your App.css file */
+.team-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+.team-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add this to your App.css file */
+.team-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+.team-card {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.team-card-content {
+  padding: 20px;
+}
+
+.team-card-school {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.team-card-mascot {
+  font-size: 1rem;
+  color: #555555;
+}
+
+.team-card-location {
+  font-size: 0.9rem;
+  color: #777777;
+}
+
+/* Add this to your App.css file */
+
+.team-card {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
